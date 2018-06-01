@@ -5,7 +5,8 @@ body {
     font-family: cursive,"impact",sans-serif,serif;
     background: url("../image/bg4.jpg");
     width: 1350px;
-    height: 120px
+    height: 120px;
+    color: red;
 }
 
 body .main-page {
