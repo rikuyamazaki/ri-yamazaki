@@ -1,0 +1,297 @@
+@charset "utf-8";
+
+/* header */
+body {
+    font-family: cursive,"impact",sans-serif,serif;
+    background: url("../image/bg4.jpg");
+    width: 1350px;
+    height: 120px;
+}
+
+body .main-page {
+    display: none;
+}
+
+#top-page {
+    background: url("../image/bg4.jpg");
+    height: 600px;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 40px;
+}
+
+#top-page h1:hover {
+    cursor: pointer;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: url("../image/bg4.jpg");
+    /*background-size: cover;*/
+}
+
+
+header .container {
+    /*width: 1350px;*/
+    /*height: 120px;*/
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+.header-title {
+    padding-left: 100px;
+    display: inline-block;
+    height: 100%;
+}
+
+.header-title h1 {
+    font-style: italic;
+    font-size: 70px;
+    float: left;
+}
+
+.header-title a {
+    color: #000;  
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.header-title a:hover {
+    text-shadow: #FFCC00 0px 0px 20px;
+    color: #EA4515;
+}
+
+
+.menu {
+    list-style: none;
+    float: right;
+}
+
+.menu li {
+    display: block;
+    float: left;
+    font-size: 25px;
+    margin: 25px 50px 0 0;
+}
+
+.menu li a {
+    color: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.menu a:hover {
+    cursor: pointer;
+    text-shadow: #FFCC00 0px 0px 20px;
+    color: #EA4515;
+}
+
+/* main */
+
+.main {
+    width: 1350px;
+}
+
+.main h1{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: cursive,"impact",sans-serif,serif;
+    letter-spacing: 2px;
+}
+
+.my-list {  
+    float: right;
+    text-align: center;
+    margin-right: 150px;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon {
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.name, .birth, .skill, .hobby {
+    /*padding-bottom: 5px;*/
+    text-align: left;
+    height: 100%;
+}
+
+.birth, .skill, .hobby {
+    margin-top: -10px;
+}
+
+.my-list h2 {
+    font-family:  cursive,"impact",sans-serif,serif;
+    font-style: italic;
+    color: orange;
+}
+
+
+.my-list p {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    font-weight: normal;
+    font-family: 'arial',sans-serif,serif;
+}
+
+
+.my-list .skill li{
+    list-style: none;
+    font-weight: normal;
+    font-family: 'arial',sans-serif,serif;
+}
+
+.my-list .skill ul {
+    border-bottom: 1px solid #000;
+}
+
+.my-list .skill span {
+    display: inline-block;
+    float: right;
+}
+
+/* ここからcontact */
+
+.contact-main {
+    height: 500px;
+}
+
+
+.contact-main h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: cursive,"impact",sans-serif,serif;
+    letter-spacing: 2px;
+}
+
+.contact-main .comment {
+    padding-bottom: 20px;
+}
+
+.contact-form {
+    height: 100%;
+    text-align: left;
+}
+.contact-form p {
+    font-family: cursive,"impact",sans-serif,serif;
+    font-size: 20px;
+}
+
+.contact-form .name_area, .mail_area {
+    width: 400px;
+}
+
+.comment, .contact-form {
+    margin-left: 200px;
+}
+
+.naming, .mail, .kome {
+    margin-top: 20px;
+}
+
+.contact textarea {
+    height: 100px;
+    width: 500px;
+}
+
+.kome p {
+    color: red;
+}
+
+.send {
+    width: 200px;
+    height: 50px;
+    background: #464646;
+    color: #fff;
+}
+
+.send:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.sns {
+    text-align: right;
+}
+.twitter,.instagram {
+    display: inline;
+    padding: 0 40px;
+}
+
+.instagram {
+    margin-right: 20px;
+}
+
+/* ここからInformation */
+
+.information {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.info_title {
+    text-align: center;
+    font-size: 60px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-family: cursive,"impact",sans-serif,serif;
+    letter-spacing: 2px;
+}
+
+.info_contents {
+    font-family: cursive,"impact",sans-serif,serif;
+}
+
+.info_contents h1 {
+    margin-left: 100px;
+    /*margin-bottom: 80px;*/
+    font-weight: normal;
+    color: orange;
+}
+
+.information p {
+    margin-left: 100px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    font-size: 25px;
+}
+
+.information img {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.period, .os, .editor, .launguage {
+    display: inline-block;
+    overflow: hidden;
+    width: 50%;
+}
+
+/*メディアクエリ
+@media (max-width: 1000px ){
+    .body {
+        width: 50%;
+    }
+}
+
+@media (max-width: 670px ) {
+    .main h1 {
+        color: green;
+    }
+}
+*/
